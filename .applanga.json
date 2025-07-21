@@ -6,7 +6,7 @@
         {
           "path": "./xliff/en_Test_123_strings.xliff",
           "file_format": "xliff",
-          "tag": "app:Localizable.strings",
+          "tag": "",
           "language": "en"
         }
       ]
@@ -16,7 +16,7 @@
         {
           "path": "./xliff/<language>.xliff",
           "file_format": "xliff",
-          "tag": "app:Localizable.strings",
+          "tag": "",
           "exclude_languages": [
             "en"
           ]
