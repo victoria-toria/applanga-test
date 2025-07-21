@@ -17,17 +17,18 @@ on:
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
         with:
           path: checkout
 
-      - uses: applanga/setup-applanga-cli@v1.0.3
+      - name: Setup Applanga CLI
+        uses: applanga/setup-applanga-cli@v1.0.3
         with:
           version: 1.0.*
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Push Sources to Applanga
         if: ${{ !inputs.push_targets }}
