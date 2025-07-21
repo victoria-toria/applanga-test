@@ -1,4 +1,5 @@
 name: Push Source Files to Applanga
+
 on:
   push:
     branches:
@@ -9,9 +10,10 @@ on:
     inputs:
       push_targets:
         type: boolean
-        description: Push translation files. If set translation files will be pushed instead of source files
+        description: Push translation files. If set, translation files will be pushed instead of source files
         default: false
         required: false
+
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
@@ -19,20 +21,23 @@ jobs:
       - uses: actions/checkout@v3
         with:
           path: checkout
+
       - uses: applanga/setup-applanga-cli@v1.0.3
         with:
           version: 1.0.*
-          env:
-    GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
       - name: Push Sources to Applanga
-        if: '${{ inputs.push_targets != true }}'
+        if: ${{ inputs.push_targets != true }}
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         run: applanga push --force
         working-directory: checkout
+
       - name: Push Translation Files to Applanga
-        if: '${{ inputs.push_targets == true }}'
+        if: ${{ inputs.push_targets == true }}
         env:
-          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         run: applanga pushtarget --force
         working-directory: checkout
