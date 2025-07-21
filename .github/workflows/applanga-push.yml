@@ -22,11 +22,12 @@ jobs:
         with:
           path: checkout
 
-      - uses: applanga/setup-applanga-cli@v1.0.3
-        with:
-          version: 1.0.*
+      - name: Setup Applanga CLI
+        uses: applanga/setup-applanga-cli@v1.0.3
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          version: 1.0.*
 
       - name: Push Sources to Applanga
         if: ${{ inputs.push_targets != true }}
