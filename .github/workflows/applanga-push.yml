@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - .github/workflows/en_Test 123_strings.xliff
+      - xliff/en_Test_123_strings.xliff
   workflow_dispatch:
     inputs:
       push_targets:
