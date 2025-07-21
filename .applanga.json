@@ -1,27 +1,11 @@
 {
-  "app": {
-    "base_language": "en",
-    "push": {
-      "source": [
-        {
-          "path": "./.github/workflows/en_Test 123_strings.xliff",
-          "file_format": "xliff",
-          "tag": "app:Localizable.strings",
-          "language": "en"
-        }
-      ]
-    },
-    "pull": {
-      "target": [
-        {
-          "path": "./.github/workflows/<language>.xliff",
-          "file_format": "xliff",
-          "tag": "app:Localizable.strings",
-          "exclude_languages": [
-            "en"
-          ]
-        }
-      ]
+  "access_token": "${{ secrets.APPLANGA_ACCESS_TOKEN }}",
+  "files": [
+    {
+      "source": "xliff/en_Test_123_strings.xliff",
+      "translation": "xliff/<language>_Test_123_strings.xliff",
+      "file_format": "xliff",
+      "exclude_languages": ["en"]
     }
-  }
+  ]
 }
