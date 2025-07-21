@@ -5,7 +5,8 @@
       "source": "xliff/en_Test_123_strings.xliff",
       "translation": "xliff/<language>_Test_123_strings.xliff",
       "file_format": "xliff",
-      "exclude_languages": ["en"]
+      "tag": "Test123"
     }
   ]
 }
+
