@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="en" date="2025-06-30T11:22:50Z" product-name="Test 123" tool="Applanga">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="69" x-length-option="equals-source">
+        <source>Test string 11115</source>
+      </trans-unit>
+      <trans-unit id="27" x-length-option="equals-source">
+        <source>Hey dude, what's up?</source>
+      </trans-unit>
+      <trans-unit id="56" x-length-option="equals-source">
+        <source>Test string 2222</source>
+      </trans-unit>
+      <trans-unit id="65" x-length-option="equals-source">
+        <source>Test string 111</source>
+      </trans-unit>
+      <trans-unit id="47" x-length-option="equals-source">
+        <source>Able was I ere I saw Elba.</source>
+      </trans-unit>
+      <trans-unit id="9" x-length-option="equals-source">
+        <source>The train departs at 14:45 and arrives at 18:30.</source>
+      </trans-unit>
+      <trans-unit id="34" x-length-option="equals-source">
+        <source>The cat sat on the mat, and the mat was flat.</source>
+      </trans-unit>
+      <trans-unit id="48" x-length-option="equals-source">
+        <source>Madam, in Eden, I'm Adam.</source>
+      </trans-unit>
+      <trans-unit id="15" x-length-option="equals-source">
+        <source>How many people attended the conference last year?</source>
+      </trans-unit>
+      <trans-unit id="62" x-length-option="equals-source">
+        <source>Test string 8</source>
+      </trans-unit>
+      <trans-unit id="13" x-length-option="equals-source">
+        <source>Don't put all your eggs in one basket.</source>
+      </trans-unit>
+      <trans-unit id="24" x-length-option="equals-source">
+        <source>Colors available: red, blue, green, yellow, black, and white.</source>
+      </trans-unit>
+      <trans-unit id="57" x-length-option="equals-source">
+        <source>Test string 3</source>
+      </trans-unit>
+      <trans-unit id="36" x-length-option="equals-source">
+        <source>Order reference number: 987654321.</source>
+      </trans-unit>
+      <trans-unit id="38" x-length-option="equals-source">
+        <source>Hola, ¿cómo estás?</source>
+      </trans-unit>
+      <trans-unit id="45" x-length-option="equals-source">
+        <source>The knight rode his horse through the night.</source>
+      </trans-unit>
+      <trans-unit id="12" x-length-option="equals-source">
+        <source>It's raining cats and dogs.</source>
+      </trans-unit>
+      <trans-unit id="11" x-length-option="equals-source">
+        <source>Ms. Emily Rose has been awarded the Employee of the Month title.</source>
+      </trans-unit>
+      <trans-unit id="22" x-length-option="equals-source">
+        <source>He said, 'I'll be there at 7:00 PM.'</source>
+      </trans-unit>
+      <trans-unit id="67" x-length-option="equals-source">
+        <source>Test string 13</source>
+      </trans-unit>
+      <trans-unit id="40" x-length-option="equals-source">
+        <source>I love pizza! 🍕❤️</source>
+      </trans-unit>
+      <trans-unit id="29" x-length-option="equals-source">
+        <source>The package weighs 4.5 kilograms and measures 30x20x15 cm.</source>
+      </trans-unit>
+      <trans-unit id="37" x-length-option="equals-source">
+        <source>Bonjour! How are you today?</source>
+      </trans-unit>
+      <trans-unit id="41" x-length-option="equals-source">
+        <source>Visit our website: https://www.example.com.</source>
+      </trans-unit>
+      <trans-unit id="66" x-length-option="equals-source">
+        <source>Test string 12</source>
+      </trans-unit>
+      <trans-unit id="2" x-length-option="equals-source">
+        <source>This is the first sentence. Here is the second sentence to test MT behavior with multiple sentences.</source>
+      </trans-unit>
+      <trans-unit id="68" x-length-option="equals-source">
+        <source>Test string 14</source>
+      </trans-unit>
+      <trans-unit id="64" x-length-option="equals-source">
+        <source>Test string 10</source>
+      </trans-unit>
+      <trans-unit id="44" x-length-option="equals-source">
+        <source>this is an all-lowercase string.</source>
+      </trans-unit>
+      <trans-unit id="42" x-length-option="equals-source">
+        <source>For more information, email us at info@example.com.</source>
+      </trans-unit>
+      <trans-unit id="55" x-length-option="equals-source">
+        <source>Test string 1</source>
+      </trans-unit>
+      <trans-unit id="61" x-length-option="equals-source">
+        <source>Test string 7</source>
+      </trans-unit>
+      <trans-unit id="21" x-length-option="equals-source">
+        <source>Wait... What happened?!</source>
+      </trans-unit>
+      <trans-unit id="4" x-length-option="equals-source">
+        <source>The event will take place on 10/10/2025 at 5:00 PM.</source>
+      </trans-unit>
+      <trans-unit id="16" x-length-option="equals-source">
+        <source>Please complete the form and submit it by Friday.</source>
+      </trans-unit>
+      <trans-unit id="23" x-length-option="equals-source">
+        <source>Items to bring: pen, notebook, laptop, charger, and water bottle.</source>
+      </trans-unit>
+      <trans-unit id="35" x-length-option="equals-source">
+        <source>Product ID: ABC123XYZ.</source>
+      </trans-unit>
+      <trans-unit id="58" x-length-option="equals-source">
+        <source>Test string 4</source>
+      </trans-unit>
+      <trans-unit id="53" x-length-option="equals-source">
+        <source>The ornithologist observed the avian fauna in its natural habitat.</source>
+      </trans-unit>
+      <trans-unit id="7" x-length-option="equals-source">
+        <source>Math symbols: +, -, =, *, /, %, ^, sqrt(4).</source>
+      </trans-unit>
+      <trans-unit id="60" x-length-option="equals-source">
+        <source>Test string 6</source>
+      </trans-unit>
+      <trans-unit id="46" x-length-option="equals-source">
+        <source>Their plans to visit there were postponed.</source>
+      </trans-unit>
+      <trans-unit id="49" x-length-option="equals-source">
+        <source>Echo, echo, echo...</source>
+      </trans-unit>
+      <trans-unit id="51" x-length-option="equals-source">
+        <source>Oh, great! Another traffic jam!</source>
+      </trans-unit>
+      <trans-unit id="5" x-length-option="equals-source">
+        <source>The total cost is $123.45 for 3 items.</source>
+      </trans-unit>
+      <trans-unit id="31" x-length-option="equals-source">
+        <source>If the weather is good, we'll go hiking.</source>
+      </trans-unit>
+      <trans-unit id="30" x-length-option="equals-source">
+        <source>The distance between the two points is approximately 5.6 miles.</source>
+      </trans-unit>
+      <trans-unit id="26" x-length-option="equals-source">
+        <source>Ensure the firewall is configured to allow incoming traffic on port 8080.</source>
+      </trans-unit>
+      <trans-unit id="20" x-length-option="equals-source">
+        <source>Thank you!</source>
+      </trans-unit>
+      <trans-unit id="70" x-length-option="equals-source">
+        <source>Test string 16</source>
+      </trans-unit>
+      <trans-unit id="54" x-length-option="equals-source">
+        <source>The sesquipedalian speech perplexed the audience.</source>
+      </trans-unit>
+      <trans-unit id="39" x-length-option="equals-source">
+        <source>Great job! 😊🎉</source>
+      </trans-unit>
+      <trans-unit id="1" x-length-option="equals-source">
+        <source>This is a very long sentence designed to test how the machine translation engine handles longer inputs and maintains coherence and grammatical correctness.</source>
+      </trans-unit>
+      <trans-unit id="8" x-length-option="equals-source">
+        <source>Today's date is 14th January 2025.</source>
+      </trans-unit>
+      <trans-unit id="43" x-length-option="equals-source">
+        <source>THIS IS AN ALL-CAPS STRING.</source>
+      </trans-unit>
+      <trans-unit id="14" x-length-option="equals-source">
+        <source>What is the capital of France?</source>
+      </trans-unit>
+      <trans-unit id="50" x-length-option="equals-source">
+        <source>Bye-bye, see you soon!</source>
+      </trans-unit>
+      <trans-unit id="59" x-length-option="equals-source">
+        <source>Test string 5</source>
+      </trans-unit>
+      <trans-unit id="28" x-length-option="equals-source">
+        <source>OMG! That was amazing, LOL!</source>
+      </trans-unit>
+      <trans-unit id="52" x-length-option="equals-source">
+        <source>Yeah, right. Like that’s going to happen.</source>
+      </trans-unit>
+      <trans-unit id="6" x-length-option="equals-source">
+        <source>Special characters: @, #, $, %, ^, &amp;, *, (, ), !, ?, /, |.</source>
+      </trans-unit>
+      <trans-unit id="17" x-length-option="equals-source">
+        <source>Turn off the lights when you leave the room.</source>
+      </trans-unit>
+      <trans-unit id="25" x-length-option="equals-source">
+        <source>The CPU utilization is at 85%, and the RAM usage is 16GB out of 32GB.</source>
+      </trans-unit>
+      <trans-unit id="32" x-length-option="equals-source">
+        <source>Should you have any questions, please contact us.</source>
+      </trans-unit>
+      <trans-unit id="10" x-length-option="equals-source">
+        <source>Dr. John Smith will attend the meeting tomorrow.</source>
+      </trans-unit>
+      <trans-unit id="19" x-length-option="equals-source">
+        <source>No.</source>
+      </trans-unit>
+      <trans-unit id="3" x-length-option="equals-source">
+        <source>Hello, how are you?</source>
+      </trans-unit>
+      <trans-unit id="18" x-length-option="equals-source">
+        <source>Yes.</source>
+      </trans-unit>
+      <trans-unit id="33" x-length-option="equals-source">
+        <source>Very, very, very interesting!</source>
+      </trans-unit>
+      <trans-unit id="63" x-length-option="equals-source">
+        <source>Test string 9</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
