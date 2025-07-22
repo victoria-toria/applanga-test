@@ -33,6 +33,6 @@ jobs:
         if: '${{ inputs.push_targets == true }}'
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-          APPLANGA_API_HOST: https://rude-papayas-glow.loca.lt
+          APPLANGA_API_HOST: https://clever-bars-bet.loca.lt
         run: applanga pushtarget --force
         working-directory: checkout
