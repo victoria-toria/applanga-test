@@ -41,3 +41,4 @@ jobs:
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga pushtarget --force
         working-directory: checkout
+
