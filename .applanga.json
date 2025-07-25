@@ -1,0 +1,56 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./xls/en_MT score test_strings.xlsx",
+          "file_format": "xls",
+          "tag": "GH_test_xls",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
+          "path": "./xliff/en_Test_123_strings.xliff",
+          "file_format": "xliff",
+          "tag": "GH_test_xliff",
+          "onlyAsDraft": true,
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./xls/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "GH_test_xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "export_empty": false,
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./xliff/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "GH_test_xliff",
+          "sort_by_key": true,
+          "ignore_duplicates": true,
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
