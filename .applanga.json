@@ -1,0 +1,27 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./xliff/en_Test_123_strings.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./xliff/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
