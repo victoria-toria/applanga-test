@@ -4,14 +4,9 @@
     "push": {
       "source": [
         {
-          "path": "./xls/en_MT score test_strings.xlsx",
-          "file_format": "xls",
-          "tag": "app:language.xls",
-          "columnDescription": {
-            "KEY": 0,
-            "en": 1
-          },
-          "excludeHeaderRow": true,
+          "path": "./xliff/en_Test_123_strings.xliff",
+          "file_format": "xliff",
+          "tag": "app:language.xliff",
           "language": "en"
         }
       ]
@@ -19,15 +14,9 @@
     "pull": {
       "target": [
         {
-          "path": "./xls/<language>.xlsx",
-          "file_format": "xls",
-          "tag": "app:language.xls",
-          "excludeHeaderRow": true,
-          "excludeBaseLang": true,
-          "columnDescription": {
-            "KEY": 0,
-            "<language>": 1
-          },
+          "path": "./xliff/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "app:language.xliff",
           "exclude_languages": [
             "en"
           ]
