@@ -4,7 +4,7 @@
   <string name="2">This is the first sentence. Here is the second sentence to test MT behavior with multiple sentences.</string>
   <string name="3">Hello, how are you?</string>
   <string name="4">The event will take place on 10/10/2025 at 5:00 PM.</string>
-  <string name="5">The total cost is $123.45 for 3-4 items.</string>
+  <string name="5">The total cost is $123.45 for 3-4-5 items.</string>
   <string name="6">Special characters: @, #, $, %, ^, &amp;, *, (, ), !, ?, /, |.</string>
   <string name="7">Math symbols: +, -, =, *, /, %, ^, sqrt(4).</string>
   <string name="8">Today\'s date is 14th January 2025.</string>
