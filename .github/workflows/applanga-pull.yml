@@ -36,6 +36,7 @@ jobs:
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: 'applanga pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Create Pull Request
