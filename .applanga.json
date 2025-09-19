@@ -4,21 +4,9 @@
     "push": {
       "source": [
         {
-          "path": "./package-lock.json",
-          "file_format": "",
-          "tag": "",
-          "language": "en"
-        },
-        {
-          "path": "./package.json",
-          "file_format": "",
-          "tag": "",
-          "language": "en"
-        },
-        {
-          "path": "./server.js",
-          "file_format": "ember_i18n_json_module",
-          "tag": "app:translations.js",
+          "path": "./xml/strings.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings:5210.xml.1",
           "language": "en"
         }
       ]
@@ -26,25 +14,9 @@
     "pull": {
       "target": [
         {
-          "path": "./<language>.json",
-          "file_format": "",
-          "tag": "",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./<language>.json",
-          "file_format": "",
-          "tag": "",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./<language>.js",
-          "file_format": "ember_i18n_json_module",
-          "tag": "app:translations.js",
+          "path": "./xml/<language>.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings:5210.xml.1",
           "exclude_languages": [
             "en"
           ]
