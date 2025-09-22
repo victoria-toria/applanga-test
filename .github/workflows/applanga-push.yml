@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - xml/strings.xml
+      - xliff/en_Test_123_strings.xliff
   workflow_dispatch:
     inputs:
       push_targets:
