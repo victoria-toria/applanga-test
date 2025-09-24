@@ -4,9 +4,9 @@
     "push": {
       "source": [
         {
-          "path": "./xliff/en_Test_123_strings.xliff",
-          "file_format": "xliff",
-          "tag": "app:language.xliff",
+          "path": "./xml/strings.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings:3908.xml",
           "language": "en"
         }
       ]
@@ -14,9 +14,9 @@
     "pull": {
       "target": [
         {
-          "path": "./xliff/<language>.xliff",
-          "file_format": "xliff",
-          "tag": "app:language.xliff",
+          "path": "./xml/<language>.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings:3908.xml",
           "exclude_languages": [
             "en"
           ]
