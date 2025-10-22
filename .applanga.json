@@ -3,12 +3,6 @@
     "base_language": "en",
     "push": {
       "source": [
-        {
-          "path": "./.github/workflows/applanga-pull.yml",
-          "file_format": "ruby_on_rails_yaml",
-          "tag": "app:language.yaml",
-          "language": "en"
-        }
       ]
     },
     "pull": {
